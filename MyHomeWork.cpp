@@ -186,7 +186,7 @@ void move(char **name,int Dist_CP[][2],int catched[][2]){
 	
 	char command = '0';
 	
-	int nearMonster[8][2]; //0 ¬° index , 1 ¬° ¼È®É¶ZÂ÷
+	int nearMonster[8][2]; //0 Â¬Â° index , 1 Â¬Â° Â¼ÃˆÂ®Ã‰Â¶ZÃ‚Ã·
 	 
 	checkNearMonster(name,Dist_CP,nearMonster);
 	
@@ -287,9 +287,9 @@ void catchMonster(char **name,int nearMonster[][2],int Dist_CP[][2],int catched[
 	printf("\n[1]Enter monster\'s number to start catch monster.\n");
 	printf("[2]Enter \'0\' to exit catch mode.\n");
 	
-	fflush(stdin);
+	
 	scanf("%d\n",&com);
-	printf("%d\n",com);
+	
 	
 	if(com == 0){
 		printf("\n\\------------------Your are in move Mode-------------------\\\n");

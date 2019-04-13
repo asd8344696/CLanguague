@@ -297,6 +297,7 @@ void catchMonster(char **name,int nearMonster[][2],int Dist_CP[][2],int catched[
 		printf("[2]Enter \'-\' to move backward 2m.\n");
 		printf("[3]Enter \'C\' or \'c\' to catch monsters.\n");
 		printf("[4]Enter \'X\' or \'x\' to exit move mode.\n");
+		return;
 	}else if(com >= 1 && com <= nearMonsterCount){
 		
 		printf("\nstarted\n");
